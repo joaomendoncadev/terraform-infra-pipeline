@@ -16,6 +16,6 @@ jobs:
       environment: dev
       aws-assume-role-arn: "arn:aws:iam::836545329086:role/github-actions-joaomendoncadev-pipeline"
       aws-region: "sa-east-1"
-      aws-statefile-s3-bucket: "joaomendoncadev-sa-east-1-terraform-statefile"
+      aws-statefile-s3-bucket: "joaomendoncadev-sa-east-1-terraform-statefile-sp"
       aws-lock-dynamodb-table: "joaomendoncadev-sa-east-1-lock
 "
